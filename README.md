@@ -2,7 +2,7 @@
 
  ## Printf e Scanf
  <img src="https://img.shields.io/badge/FEITO NO %2B EMBARCADEIRO-red">
-
+<img src="https://img.shields.io/badge/FEITO NO-%2BEMBARCADEIRO-red">
  ### 1-) Nome e idade.
 
     #include <stdio.h>
@@ -118,8 +118,7 @@
     }
 
 ## If, Else If, Else
- <img src="https://img.shields.io/badge/FEITO NO-EMBARCADEIRO-red">
- <img src="https://img.shields.io/badge/FEITO-NO-EMBARCADEIRO-brightgreen">
+ <img src="https://img.shields.io/badge/FEITO NO-EMBARCADEIRO-brightgreen">
 
 ### 1-) Número positivo ou negativo.
 
