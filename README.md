@@ -2,7 +2,7 @@
 
  ## Printf e Scanf
 
- 1-) Nome e idade.
+ ### 1-) Nome e idade.
 
 #include <stdio.h>
 int main (){
