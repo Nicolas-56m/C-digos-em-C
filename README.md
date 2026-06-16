@@ -20,7 +20,7 @@ int main (){
 	  return 0;	
 }
 
-2-) Soma, subtração e multiplicação de números inteiros.
+### 2-) Soma, subtração e multiplicação de números inteiros.
 
 #include <stdio.h>
 int main (){
@@ -47,7 +47,7 @@ int main (){
 	   return 0;
 }
 
-3-) Média de 2 notas.
+### 3-) Média de 2 notas.
 
 #include <stdio.h>
 int main (){
@@ -72,7 +72,7 @@ int main (){
 	return 0;
 }
 
-4-) Conversão de temeperatura de °C para °F.
+### 4-) Conversão de temeperatura de °C para °F.
 
 #include <stdio.h>
 int main (){
@@ -92,7 +92,7 @@ int main (){
 	return 0;
 }
 
-5-) Dados pessoais.
+### 5-) Dados pessoais.
 
 #include <stdio.h>
 int main (){
@@ -116,5 +116,29 @@ int main (){
 	return 0;
 }
 
+## If, Else If, Else
+
+### 1-) Número positivo ou negativo.
+
+#include <stdio.h>
+int main (){
+	
+    int num;
+    
+    printf("Digite o numero: ");
+    scanf("%d", &num);
+    
+     if(num > 1) {
+     	printf("Positivo");
+     }
+     else if(num < -1) {
+     	printf("Negativo"); 	
+     }
+     else {
+     	printf("Eh zero (0)");
+	 }
+	 	   
+	return 0;
+}
 
 
