@@ -1,8 +1,7 @@
 # Códigos em C - Feitos por mim
 
- ## Printf e Scanf
+ ## - Printf e Scanf
 <img src="https://img.shields.io/badge/FEITO NO-%2BEMBARCADEIRO-red">
-
  ### 1-) Nome e idade.
 
     #include <stdio.h>
@@ -117,7 +116,7 @@
 	return 0;
     }
 
-## If, Else If, Else
+## - If, Else If, Else
  <img src="https://img.shields.io/badge/FEITO NO-EMBARCADEIRO-brightgreen">
 
 ### 1-) Número positivo ou negativo.
