@@ -4,8 +4,8 @@
 
  ### 1-) Nome e idade.
 
-#include <stdio.h>
-int main (){
+    #include <stdio.h>
+    int main () {
 	
 	char nome[50];
 	int idade;
@@ -18,12 +18,12 @@ int main (){
 	  printf("Seu nome eh %s, e sua idade eh %d", nome, idade);
 	  
 	  return 0;	
-}
+     }
 
 ### 2-) Soma, subtração e multiplicação de números inteiros.
 
-#include <stdio.h>
-int main (){
+    #include <stdio.h>
+    int main () {
 	
 	int n1, n2, soma, multiplicacao, subtracao;
 	
@@ -45,12 +45,12 @@ int main (){
 	   printf("A multiplicacao dos 2 numeros: %d\n", multiplicacao);
 	   
 	   return 0;
-}
+      }
 
 ### 3-) Média de 2 notas.
 
-#include <stdio.h>
-int main (){
+    #include <stdio.h>
+    int main () {
 	
 	char nome[50];
 	int n1, n2;
@@ -70,12 +70,12 @@ int main (){
 	printf("O nome do aluno eh %s, e sua nota eh %.1f", nome, media);
 		   
 	return 0;
-}
+    }
 
 ### 4-) Conversão de temeperatura de °C para °F.
 
-#include <stdio.h>
-int main (){
+    #include <stdio.h>
+    int main () {
 	
 	float celcius, fahrenheit;
 	
@@ -90,12 +90,12 @@ int main (){
 	  printf("A temperatura convetida em Fahrenheit eh: %.1f", fahrenheit);
 		   
 	return 0;
-}
+    }
 
 ### 5-) Dados pessoais.
 
-#include <stdio.h>
-int main (){
+    #include <stdio.h>
+    int main () {
 	
     char sexo[50];
     float altura;
@@ -114,14 +114,14 @@ int main (){
       printf("Seu sexo eh %s, sua altura eh %.2f, e sua idade eh %d", sexo, altura, idade);
 		   
 	return 0;
-}
+    }
 
 ## If, Else If, Else
 
 ### 1-) Número positivo ou negativo.
 
-#include <stdio.h>
-int main (){
+    #include <stdio.h>
+    int main () {
 	
     int num;
     
@@ -139,6 +139,6 @@ int main (){
 	 }
 	 	   
 	return 0;
-}
+    }
 
 
