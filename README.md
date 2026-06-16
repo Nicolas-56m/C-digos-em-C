@@ -118,7 +118,8 @@
     }
 
 ## If, Else If, Else
-![Embarcadero](https://shields.io)
+ <img src="https://img.shields.io/badge/FEITO NO-EMBARCADEIRO-red">
+ <img src="https://img.shields.io/badge/FEITO-NO-EMBARCADEIRO-brightgreen">
 
 ### 1-) Número positivo ou negativo.
 
