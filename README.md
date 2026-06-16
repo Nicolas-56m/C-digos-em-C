@@ -1,8 +1,8 @@
 # Códigos em C - Feitos por mim
 
  ## Printf e Scanf
- <img src="https://img.shields.io/badge/FEITO NO %2B EMBARCADEIRO-red">
 <img src="https://img.shields.io/badge/FEITO NO-%2BEMBARCADEIRO-red">
+
  ### 1-) Nome e idade.
 
     #include <stdio.h>
