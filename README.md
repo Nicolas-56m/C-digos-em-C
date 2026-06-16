@@ -118,6 +118,7 @@
     }
 
 ## If, Else If, Else
+<img src="https://img.shields.io/badge/FEITO NO %2EMBARCADEIRObrightgreen">
 
 ### 1-) Número positivo ou negativo.
 
