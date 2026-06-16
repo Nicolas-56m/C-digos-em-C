@@ -1,6 +1,6 @@
 # Códigos em C - Feitos por mim
 
- Printf e Scanf
+ ## Printf e Scanf
 
  1-) Nome e idade.
 
