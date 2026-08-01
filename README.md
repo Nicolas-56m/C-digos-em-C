@@ -2,6 +2,7 @@
 
  ## - Printf e Scanf
 <img src="https://img.shields.io/badge/FEITO NO-%2BEMBARCADEIRO-red">
+
  ### 1-) Nome e idade.
 
     #include <stdio.h>
