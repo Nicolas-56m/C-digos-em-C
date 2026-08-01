@@ -1,6 +1,6 @@
 # Códigos em C - Feitos por mim (para estudo)
 
- ## - Printf e Scanf
+ ## - Printf e Scanf (Somente)
 <img src="https://img.shields.io/badge/FEITO NO-%2BEMBARCADEIRO-red">
 
  ### 1-) Nome e idade.
