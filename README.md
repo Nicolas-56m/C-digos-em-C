@@ -6,8 +6,8 @@
  ### 1-) Nome e idade.
 
     #include <stdio.h>
-    int main () {
 	
+    int main () {
 	char nome[50];
 	int idade;
 	
@@ -16,21 +16,17 @@
 	 printf("Digite sua idade: ");
 	 scanf("%d", &idade);
 	 
-	  printf("Seu nome eh %s, e sua idade eh %d", nome, idade);
+	printf("Seu nome eh %s, e sua idade eh %d", nome, idade);
 	  
-	  return 0;	
-     }
+    return 0;	
+    }
 
 ### 2-) Soma, subtração e multiplicação de números inteiros.
 
     #include <stdio.h>
+	
     int main () {
-	
-	int n1, n2, soma, multiplicacao, subtracao;
-	
-	soma = 0;
-	multiplicacao = 0;
-	subtracao = 0;
+	int n1, n2, soma = 0, multiplicacao = 0, subtracao = 0;
 	
 	printf("Digite o primeiro numero: ");
 	scanf("%d", &n1);
@@ -41,54 +37,49 @@
 	 subtracao = n1 - n2;
 	 multiplicacao = n1 * n2;
 	 
-	   printf("A soma dos 2 numeros: %d\n", soma);
-	   printf("A subtracao dos 2 numeros %d\n", subtracao);
-	   printf("A multiplicacao dos 2 numeros: %d\n", multiplicacao);
+    printf("A soma dos 2 numeros: %d\n", soma);
+	printf("A subtracao dos 2 numeros %d\n", subtracao);
+    printf("A multiplicacao dos 2 numeros: %d\n", multiplicacao);
 	   
-	   return 0;
-      }
+	return 0;
+    }
 
 ### 3-) Média de 2 notas.
 
     #include <stdio.h>
-    int main () {
 	
+    int main () {
 	char nome[50];
 	int n1, n2;
-	float media;
-	
-	media = 0;
+	float media = 0;
 	
 	printf("Digite o nome do aluno: ");
 	scanf("%s", &nome);
-	printf("Digite a primeira nota: ");
-	scanf("%d", &n1);
-	printf("Digite a segunda nota: ");
-	scanf("%d", &n2);
+	 printf("Digite a primeira nota: ");
+	 scanf("%d", &n1);
+	  printf("Digite a segunda nota: ");
+	  scanf("%d", &n2);
 	
-	media = (n1 + n2) / 2.0;
+	  media = (n1 + n2) / 2.0;
 	
 	printf("O nome do aluno eh %s, e sua nota eh %.1f", nome, media);
-		   
+	
 	return 0;
     }
 
 ### 4-) Conversão de temeperatura de °C para °F.
 
     #include <stdio.h>
+	
     int main () {
-	
-	float celcius, fahrenheit;
-	
-	fahrenheit = 0;
-	celcius = 0;
+	float celcius = 0, fahrenheit = 0;
 	
 	printf("Digite a temperatura em Celcius: ");
 	scanf("%f", &celcius);
     
-     fahrenheit = (celcius * 9.0/5.0) + 32;
+    fahrenheit = (celcius * 9.0/5.0) + 32;
 	
-	  printf("A temperatura convetida em Fahrenheit eh: %.1f", fahrenheit);
+    printf("A temperatura convetida em Fahrenheit eh: %.1f", fahrenheit);
 		   
 	return 0;
     }
@@ -96,14 +87,11 @@
 ### 5-) Dados pessoais.
 
     #include <stdio.h>
-    int main () {
 	
+    int main () {
     char sexo[50];
-    float altura;
-    int idade;
-    
-    altura = 0;
-    idade = 0;
+    float altura = 0;
+    int idade = 0;
     
     printf("Digite seu sexo (Feminino ou Masculino): ");
     scanf("%s", &sexo);
@@ -112,7 +100,7 @@
       printf("Digite sua idade: ");
       scanf("%d", &idade);
       
-      printf("Seu sexo eh %s, sua altura eh %.2f, e sua idade eh %d", sexo, altura, idade);
+    printf("Seu sexo eh %s, sua altura eh %.2f, e sua idade eh %d", sexo, altura, idade);
 		   
 	return 0;
     }
@@ -123,24 +111,27 @@
 ### 1-) Número positivo ou negativo.
 
     #include <stdio.h>
-    int main () {
 	
+    int main () {
     int num;
     
     printf("Digite o numero: ");
     scanf("%d", &num);
     
-     if(num > 1) {
+     if(num > 1) 
+	 {
      	printf("Positivo");
      }
-     else if(num < -1) {
+     else if(num < -1)
+	 {
      	printf("Negativo"); 	
      }
-     else {
+     else 
+	 {
      	printf("Eh zero (0)");
 	 }
 	 	   
 	return 0;
     }
 
-
+### 2-) 
