@@ -21,6 +21,7 @@
 	  
     return 0;	
     }
+	```
 
 ### 2-) Soma, subtração e multiplicação de números inteiros.
 
