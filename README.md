@@ -13,7 +13,7 @@
 	int idade;
 	
 	printf("Digite seu nome: ");
-	scanf("%s", &nome);
+	scanf("%49s", nome);
 	 printf("Digite sua idade: ");
 	 scanf("%d", &idade);
 	 
@@ -29,8 +29,8 @@
     #include <stdio.h>
 	
     int main () {
-	int n1, n2, soma = 0, multiplicacao = 0, subtracao = 0;
-	
+	int n1, n2, soma = 0, multiplicacao = 0, sutracao = 0;
+
 	printf("Digite o primeiro numero: ");
 	scanf("%d", &n1);
 	 printf("Digite o segundo numero: ");
@@ -58,7 +58,7 @@
 	float media = 0;
 	
 	printf("Digite o nome do aluno: ");
-	scanf("%s", &nome);
+	scanf("%49s", nome);
 	 printf("Digite a primeira nota: ");
 	 scanf("%d", &n1);
 	  printf("Digite a segunda nota: ");
@@ -66,7 +66,7 @@
 	
 	  media = (n1 + n2) / 2.0;
 	
-	printf("O nome do aluno eh %s, e sua nota eh %.1f", nome, media);
+	printf("O nome do aluno eh %s, e sua nota eh %.2f", nome, media);
 	
 	return 0;
     }
@@ -84,7 +84,7 @@
     
     fahrenheit = (celcius * 9.0/5.0) + 32;
 	
-    printf("A temperatura convetida em Fahrenheit eh: %.1f", fahrenheit);
+    printf("A temperatura convetida em Fahrenheit eh: %.2f", fahrenheit);
 		   
 	return 0;
     }
@@ -95,12 +95,12 @@
     #include <stdio.h>
 	
     int main () {
-    char sexo[50];
+    char sexo[20];
     float altura = 0;
     int idade = 0;
     
     printf("Digite seu sexo (Feminino ou Masculino): ");
-    scanf("%s", &sexo);
+    scanf("%19s", sexo);
      printf("Digite sua altura (sem virgulas): ");
      scanf("%f", &altura);
       printf("Digite sua idade: ");
@@ -114,7 +114,7 @@
 ## - If, Else If, Else
  <img src="https://img.shields.io/badge/FEITO NO-EMBARCADEIRO-brightgreen">
 
-### 1-) Número positivo ou negativo.
+### 1-) Número positivo, negativo ou zero.
 
 ```c
     #include <stdio.h>
@@ -141,11 +141,34 @@
 	return 0;
     }
 ```
-### 2-) 
+### 2-) Aprovação escolar.
 
+```c
+#include <stdio.h>
 
+int main ( ) {
 
+int media;
 
+printf("Digite a média do aluno: ");
+scanf(%d", &media);
+
+ if (media >= 7)
+ {   
+     printf("Aprovado");
+ }
+  else if (media >= 5)
+  {
+  	 printf("Recuperação");
+  }
+  else
+  {
+  	 printf("Reprovado");
+  }
+
+return 0;
+}
+```
 ....
 
 do While 10 exercícios.. depois editar
