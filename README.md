@@ -5,7 +5,7 @@
 
  ### 1-) Nome e idade.
  
-    ```c
+ ```c
     #include <stdio.h>
 	
     int main () {
@@ -21,7 +21,7 @@
 	  
     return 0;	
     }
-	```
+```
 
 ### 2-) Soma, subtração e multiplicação de números inteiros.
 
