@@ -70,8 +70,8 @@
 	
 	return 0;
     }
-```c
-### 4-) Conversão de temeperatura de °C para °F.
+```
+### 4-) Conversão de temperatura de °C para °F.
 
 ```c
     #include <stdio.h>
