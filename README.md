@@ -142,3 +142,79 @@
     }
 ```
 ### 2-) 
+
+
+
+
+....
+
+do While 10 exercícios.. depois editar
+
+```c
+#include <stdio.h>
+
+int main() {
+
+    float n1, n2;
+    int opcao;
+
+    do
+    {  
+        printf("\n---Menu de Opções da Calculadora---\n");
+        
+        printf("\n1- Soma\n");
+        printf("2- Subtração\n");
+        printf("3- Multiplicação\n");
+        printf("4- Divisão\n");
+        printf("5- Sair do menu\n");
+        
+        printf("\nDigite um número das opções acima: ");
+        scanf("%d", &opcao);
+        
+         if (opcao >= 1 && opcao <= 4)
+         {
+            printf("\nDigite o primeiro número: ");
+            scanf("%f", &n1);
+             printf("Digite o segundo número: ");
+             scanf("%f", &n2);
+         }    
+        
+         switch (opcao)
+         {    
+             case 1:
+                  printf("\nO Resultado da Soma eh: %.2f\n", n1 + n2);
+                  break;
+             
+             case 2:
+                  printf("\nO Resultado da Subtração eh: %.2f\n", n1 - n2);   
+                  break;
+             
+             case 3:
+                  printf("\nO Resultado da Multiplicação eh: %.2f\n", n1 * n2);
+                  break;
+                  
+             case 4:
+                  if (n2 != 0)
+                  {  
+                     printf("\nO Resultado da Divisão eh: %.2f\n", n1 / n2);
+                  }
+                  else    
+                  {
+                     printf("\nNão eh possível dividir por 0\n");
+                  }
+                  break;
+                  
+             case 5:
+                  printf("\nSaindo do Menu da Calculadora\n");
+                  break;
+             
+             default:
+                  printf("\nOpção Inválida\n");
+                  break;
+         }       
+           
+    } while (opcao != 5);
+
+    return 0;
+}
+```
