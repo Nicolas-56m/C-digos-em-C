@@ -25,6 +25,7 @@
 
 ### 2-) Soma, subtração e multiplicação de números inteiros.
 
+```c
     #include <stdio.h>
 	
     int main () {
@@ -45,9 +46,10 @@
 	   
 	return 0;
     }
-
+```
 ### 3-) Média de 2 notas.
 
+```c
     #include <stdio.h>
 	
     int main () {
@@ -68,9 +70,10 @@
 	
 	return 0;
     }
-
+```c
 ### 4-) Conversão de temeperatura de °C para °F.
 
+```c
     #include <stdio.h>
 	
     int main () {
@@ -85,9 +88,10 @@
 		   
 	return 0;
     }
-
+```
 ### 5-) Dados pessoais.
 
+```c
     #include <stdio.h>
 	
     int main () {
@@ -106,12 +110,13 @@
 		   
 	return 0;
     }
-
+```
 ## - If, Else If, Else
  <img src="https://img.shields.io/badge/FEITO NO-EMBARCADEIRO-brightgreen">
 
 ### 1-) Número positivo ou negativo.
 
+```c
     #include <stdio.h>
 	
     int main () {
@@ -135,5 +140,5 @@
 	 	   
 	return 0;
     }
-
+```
 ### 2-) 
