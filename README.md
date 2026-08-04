@@ -241,3 +241,40 @@ int main() {
     return 0;
 }
 ```
+......
+
+```c
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+
+    char sC[7] = "Github", sD[10];
+    int contador = 0, parar = 0;
+
+    do
+    {  
+        printf("\nDigite a sua senha (você tem 3 tentativas): ");
+        scanf("%9s", sD);
+        contador++;
+        
+         if (strcmp(sD, sC) == 0)
+         {
+             printf("\nSenha Correta\n");
+             parar = 1;
+         }
+         else
+         {
+             printf("\nSenha Incorreta, tente novamente!\n");
+         }    
+         
+    }while (contador < 3 && parar == 0);
+    
+    if (parar == 0)
+    {
+        printf("\nSuas tentivas acabaram");
+    }
+    
+    return 0;
+}
+```
