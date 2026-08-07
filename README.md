@@ -55,7 +55,7 @@ int main() {
 #include <stdio.h>
 	
 int main() {
-   	char nome[50];
+    char nome[50];
    	float n1, n2, media = 0;
 	
    	printf("Digite o nome do aluno: ");
