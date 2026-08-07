@@ -9,7 +9,7 @@
 #include <stdio.h>
 	
 int main ( ) {
-char nome[50];
+    char nome[50];
    	int idade;
 	
    	printf("Digite seu nome: ");
