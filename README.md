@@ -136,7 +136,7 @@ int main() {
     }
     else if (num < 0)
     {
-        printf("Negativo"); 	
+        printf("Negativo");
     }
     else 
     {
@@ -152,7 +152,7 @@ int main() {
 #include <stdio.h>
 
 int main() {
-    int media = 0;
+    int media;
 
     printf("Digite a média do aluno: ");
     scanf(%d", &media);
@@ -163,11 +163,11 @@ int main() {
     }
     else if (media >= 5)
     {
-      	 printf("Recuperação");
+        printf("Recuperação");
     }
     else
     {
-      	 printf("Reprovado");
+        printf("Reprovado");
     }
 
     return 0;
