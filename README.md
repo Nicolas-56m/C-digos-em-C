@@ -8,19 +8,19 @@
  ```c
     #include <stdio.h>
 	
-    int main () {
-	char nome[50];
-	int idade;
+    int main ( ) {
+   	char nome[50];
+   	int idade;
 	
-	printf("Digite seu nome: ");
-	scanf("%49s", nome);
-	 printf("Digite sua idade: ");
-	 scanf("%d", &idade);
+   	printf("Digite seu nome: ");
+   	scanf("%49s", nome);
+   	 printf("Digite sua idade: ");
+   	 scanf("%d", &idade);
 	 
-	printf("Seu nome eh %s, e sua idade eh %d", nome, idade);
+	   printf("Seu nome eh %s, e sua idade eh %d", nome, idade);
 	  
-    return 0;	
-    }
+    return 0;
+}
 ```
 
 ### 2-) Soma, subtração e multiplicação de números inteiros.
@@ -28,73 +28,72 @@
 ```c
     #include <stdio.h>
 	
-    int main () {
-	int n1, n2, soma = 0, multiplicacao = 0, sutracao = 0;
+    int main ( ) {
+	   int n1, n2, soma = 0, multiplicacao = 0,  sutracao = 0;
 
-	printf("Digite o primeiro numero: ");
-	scanf("%d", &n1);
-	 printf("Digite o segundo numero: ");
-	 scanf("%d", &n2);
+   	printf("Digite o primeiro numero: ");
+   	scanf("%d", &n1);
+   	 printf("Digite o segundo numero: ");
+	    scanf("%d", &n2);
 	 
-	 soma = n1 + n2;
-	 subtracao = n1 - n2;
-	 multiplicacao = n1 * n2;
+  	 soma = n1 + n2;
+  	 subtracao = n1 - n2;
+  	 multiplicacao = n1 * n2;
 	 
     printf("A soma dos 2 numeros: %d\n", soma);
-	printf("A subtracao dos 2 numeros %d\n", subtracao);
+	   printf("A subtracao dos 2 numeros %d\n", subtracao);
     printf("A multiplicacao dos 2 numeros: %d\n", multiplicacao);
 	   
-	return 0;
-    }
+	   return 0;
+}
 ```
 ### 3-) Média de 2 notas.
 
 ```c
     #include <stdio.h>
 	
-    int main () {
-	char nome[50];
-	int n1, n2;
-	float media = 0;
+    int main ( ) {
+   	char nome[50];
+   	float n1, n2, media = 0;
 	
-	printf("Digite o nome do aluno: ");
-	scanf("%49s", nome);
-	 printf("Digite a primeira nota: ");
-	 scanf("%d", &n1);
-	  printf("Digite a segunda nota: ");
-	  scanf("%d", &n2);
+   	printf("Digite o nome do aluno: ");
+   	scanf("%49s", nome);
+   	 printf("Digite a primeira nota: ");
+   	 scanf("%d", &n1);
+   	  printf("Digite a segunda nota: ");
+	     scanf("%d", &n2);
+	   
+	   media = (n1 + n2) / 2.0;
 	
-	  media = (n1 + n2) / 2.0;
+   	printf("O nome do aluno eh %s, e sua nota eh %.2f", nome, media);
 	
-	printf("O nome do aluno eh %s, e sua nota eh %.2f", nome, media);
-	
-	return 0;
-    }
+   	return 0;
+}
 ```
 ### 4-) Conversão de temperatura de °C para °F.
 
 ```c
     #include <stdio.h>
 	
-    int main () {
-	float celcius = 0, fahrenheit = 0;
+    int main ( ) {
+   	float celcius = 0, fahrenheit = 0;
 	
-	printf("Digite a temperatura em Celcius: ");
-	scanf("%f", &celcius);
+   	printf("Digite a temperatura em Celcius:   ");
+   	scanf("%f", &celcius);
     
-    fahrenheit = (celcius * 9.0/5.0) + 32;
+     fahrenheit = (celcius * 9.0/5.0) + 32;
 	
-    printf("A temperatura convetida em Fahrenheit eh: %.2f", fahrenheit);
+    printf("A temperatura convetida em     Fahrenheit eh: %.2f", fahrenheit);
 		   
-	return 0;
-    }
+	   return 0;
+}
 ```
 ### 5-) Dados pessoais.
 
 ```c
     #include <stdio.h>
 	
-    int main () {
+    int main ( ) {
     char sexo[20];
     float altura = 0;
     int idade = 0;
@@ -108,8 +107,8 @@
       
     printf("Seu sexo eh %s, sua altura eh %.2f, e sua idade eh %d", sexo, altura, idade);
 		   
-	return 0;
-    }
+	   return 0;
+}
 ```
 ## - If, Else If, Else
  <img src="https://img.shields.io/badge/FEITO NO-EMBARCADEIRO-brightgreen">
@@ -119,27 +118,27 @@
 ```c
     #include <stdio.h>
 	
-    int main () {
+    int main ( ) {
     int num;
     
     printf("Digite o numero: ");
     scanf("%d", &num);
     
-     if(num > 1) 
-	 {
-     	printf("Positivo");
+     if (num > 1) 
+	    {
+        	printf("Positivo");
      }
-     else if(num < -1)
-	 {
-     	printf("Negativo"); 	
+     else if (num < -1)
+	    {
+        	printf("Negativo"); 	
      }
      else 
-	 {
-     	printf("Eh zero (0)");
-	 }
+	    {
+        	printf("Eh zero (0)");
+	    }
 	 	   
-	return 0;
-    }
+	   return 0;
+}
 ```
 ### 2-) Aprovação escolar.
 
@@ -147,8 +146,7 @@
 #include <stdio.h>
 
 int main ( ) {
-
-int media;
+int media = 0;
 
 printf("Digite a média do aluno: ");
 scanf(%d", &media);
