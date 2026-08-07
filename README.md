@@ -69,7 +69,7 @@ int main() {
 	   
     media = (n1 + n2) / 2.0;
 	
-    printf("O nome do aluno eh %s, e sua nota eh %.2f", nome, media);
+    printf("\nO nome do aluno eh %s, e sua nota eh %.2f", nome, media);
 	
     return 0;
 }
