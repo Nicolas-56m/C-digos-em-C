@@ -104,14 +104,16 @@ int main() {
     
     printf("Digite seu sexo (Feminino ou Masculino): ");
     scanf("%19s", sexo);
-     printf("Digite sua altura (sem virgulas): ");
-     scanf("%f", &altura);
-      printf("Digite sua idade: ");
-      scanf("%d", &idade);
+    
+    printf("Digite sua altura (sem virgulas): ");
+    scanf("%f", &altura);
+    
+    printf("Digite sua idade: ");
+    scanf("%d", &idade);
       
     printf("Seu sexo eh %s, sua altura eh %.2f, e sua idade eh %d", sexo, altura, idade);
 		   
-	   return 0;
+    return 0;
 }
 ```
 ## - If, Else If, Else
