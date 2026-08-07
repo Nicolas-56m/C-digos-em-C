@@ -10,7 +10,7 @@
 	
 int main ( ) {
      char nome[50];
-int idade;
+     int idade;
 	
    	printf("Digite seu nome: ");
    	scanf("%49s", nome);
