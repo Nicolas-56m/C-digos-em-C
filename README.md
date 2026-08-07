@@ -56,14 +56,16 @@ int main() {
 	
 int main() {
     char nome[50];
-    float n1, n2, media = 0;
+    float n1, n2, media;
 	
     printf("Digite o nome do aluno: ");
     scanf("%49s", nome);
-     printf("Digite a primeira nota: ");
-     scanf("%d", &n1);
-      printf("Digite a segunda nota: ");
-      scanf("%d", &n2);
+
+    printf("Digite a primeira nota: ");
+    scanf("%f", &n1);
+
+    printf("Digite a segunda nota: ");
+    scanf("%f", &n2);
 	   
     media = (n1 + n2) / 2.0;
 	
@@ -78,16 +80,16 @@ int main() {
 #include <stdio.h>
 	
 int main() {
-   	float celcius = 0, fahrenheit = 0;
-	
-   	printf("Digite a temperatura em Celcius:   ");
-   	scanf("%f", &celcius);
+    float celsius, fahrenheit;
+
+    printf("Digite a temperatura em Celcius: ");
+    scanf("%f", &celsius);
     
-     fahrenheit = (celcius * 9.0/5.0) + 32;
+    fahrenheit = (celsius * 9.0/5.0) + 32;
 	
-    printf("A temperatura convetida em     Fahrenheit eh: %.2f", fahrenheit);
+    printf("\nA temperatura convertida em Fahrenheit eh: %.2f", fahrenheit);
 		   
-	   return 0;
+    return 0;
 }
 ```
 ### 5-) Dados pessoais.
