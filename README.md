@@ -132,15 +132,15 @@ int main() {
     
     if (num > 0) 
     {
-        printf("Positivo");
+        printf("Positivo\n");
     }
     else if (num < 0)
     {
-        printf("Negativo");
+        printf("Negativo\n");
     }
     else 
     {
-        printf("Eh zero (0)");
+        printf("Eh zero (0)\n");
     }
 	 	  
     return 0;
@@ -155,19 +155,19 @@ int main() {
     int media;
 
     printf("Digite a média do aluno: ");
-    scanf(%d", &media);
+    scanf("%d", &media);
 
     if (media >= 7)
     {   
-        printf("Aprovado");
+        printf("Aprovado\n");
     }
     else if (media >= 5)
     {
-        printf("Recuperação");
+        printf("Recuperação\n");
     }
     else
     {
-        printf("Reprovado");
+        printf("Reprovado\n");
     }
 
     return 0;
