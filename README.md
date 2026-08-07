@@ -29,7 +29,7 @@ int main ( ) {
 #include <stdio.h>
 	
 int main ( ) {
-     int n1, n2, soma = 0, multiplicacao = 0,  sutracao = 0;
+     int n1, n2, soma, multiplicacao, subtracao;
 
      printf("Digite o primeiro numero: ");
      scanf("%d", &n1);
@@ -41,7 +41,7 @@ int main ( ) {
      multiplicacao = n1 * n2;
    	 
      printf("A soma dos 2 numeros: %d\n", soma);
-     printf("A subtracao dos 2 numeros %d\n", subtracao);
+     printf("A subtracao dos 2 numeros: %d\n", subtracao);
      printf("A multiplicacao dos 2 numeros: %d\n", multiplicacao);
 	   
      return 0;
