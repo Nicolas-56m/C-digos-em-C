@@ -152,16 +152,16 @@ int main() {
 #include <stdio.h>
 
 int main() {
-    int media;
+    float num;
 
     printf("Digite a média do aluno: ");
-    scanf("%d", &media);
+    scanf("%d", &num);
 
-    if (media >= 7)
+    if (num >= 7)
     {   
         printf("Aprovado\n");
     }
-    else if (media >= 5)
+    else if (num >= 5)
     {
         printf("Recuperação\n");
     }
