@@ -18,7 +18,7 @@ int main() {
      printf("Digite sua idade: ");
      scanf("%d", &idade);
 
-     printf("Seu nome eh %s, e sua idade eh %d", nome, idade);
+     printf("\nSeu nome eh %s, e sua idade eh %d", nome, idade);
 	  
      return 0;
 }
@@ -42,9 +42,9 @@ int main() {
     subtracao = n1 - n2;
     multiplicacao = n1 * n2;
    	 
-    printf("A soma dos 2 numeros: %d\n", soma);
-    printf("A subtracao dos 2 numeros: %d\n", subtracao);
-    printf("A multiplicacao dos 2 numeros: %d\n", multiplicacao);
+    printf("\nA soma dos 2 numeros: %d\n", soma);
+    printf("\nA subtracao dos 2 numeros: %d\n", subtracao);
+    printf("\nA multiplicacao dos 2 numeros: %d\n", multiplicacao);
 	   
     return 0;
 }
