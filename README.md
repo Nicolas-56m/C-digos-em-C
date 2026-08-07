@@ -105,7 +105,7 @@ int main() {
     printf("Digite seu sexo (Feminino ou Masculino): ");
     scanf("%19s", sexo);
     
-    printf("Digite sua altura (sem virgulas, ex: 1.70): ");
+    printf("Digite sua altura (sem virgula, ex: 1.70): ");
     scanf("%f", &altura);
     
     printf("Digite sua idade: ");
@@ -131,19 +131,19 @@ int main() {
     scanf("%d", &num);
     
      if (num > 1) 
-	    {
-        	printf("Positivo");
+     {
+         printf("Positivo");
      }
      else if (num < -1)
-	    {
-        	printf("Negativo"); 	
+     {
+         printf("Negativo"); 	
      }
      else 
-	    {
-        	printf("Eh zero (0)");
-	    }
-	 	   
-	   return 0;
+     {
+         printf("Eh zero (0)");
+     }
+	 	  
+    return 0;
 }
 ```
 ### 2-) Aprovação escolar.
