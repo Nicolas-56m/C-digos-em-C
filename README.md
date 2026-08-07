@@ -99,13 +99,13 @@ int main() {
 	
 int main() {
     char sexo[20];
-    float altura = 0;
-    int idade = 0;
+    float altura;
+    int idade;
     
     printf("Digite seu sexo (Feminino ou Masculino): ");
     scanf("%19s", sexo);
     
-    printf("Digite sua altura (sem virgulas): ");
+    printf("Digite sua altura (sem virgulas, ex: 1.70): ");
     scanf("%f", &altura);
     
     printf("Digite sua idade: ");
