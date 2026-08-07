@@ -12,14 +12,14 @@ int main ( ) {
      char nome[50];
      int idade;
 	
-   	printf("Digite seu nome: ");
-   	scanf("%49s", nome);
-   	 printf("Digite sua idade: ");
-   	 scanf("%d", &idade);
-	 
-	   printf("Seu nome eh %s, e sua idade eh %d", nome, idade);
+     printf("Digite seu nome: ");
+     scanf("%49s", nome);
+      printf("Digite sua idade: ");
+      scanf("%d", &idade);
+
+     printf("Seu nome eh %s, e sua idade eh %d", nome, idade);
 	  
-    return 0;
+     return 0;
 }
 ```
 
