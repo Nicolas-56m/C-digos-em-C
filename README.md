@@ -6,9 +6,9 @@
  ### 1-) Nome e idade.
  
  ```c
-    #include <stdio.h>
+#include <stdio.h>
 	
-    int main ( ) {
+int main ( ) {
    	char nome[50];
    	int idade;
 	
@@ -26,9 +26,9 @@
 ### 2-) Soma, subtração e multiplicação de números inteiros.
 
 ```c
-    #include <stdio.h>
+#include <stdio.h>
 	
-    int main ( ) {
+int main ( ) {
 	   int n1, n2, soma = 0, multiplicacao = 0,  sutracao = 0;
 
    	printf("Digite o primeiro numero: ");
@@ -50,9 +50,9 @@
 ### 3-) Média de 2 notas.
 
 ```c
-    #include <stdio.h>
+#include <stdio.h>
 	
-    int main ( ) {
+int main ( ) {
    	char nome[50];
    	float n1, n2, media = 0;
 	
@@ -73,9 +73,9 @@
 ### 4-) Conversão de temperatura de °C para °F.
 
 ```c
-    #include <stdio.h>
+#include <stdio.h>
 	
-    int main ( ) {
+int main ( ) {
    	float celcius = 0, fahrenheit = 0;
 	
    	printf("Digite a temperatura em Celcius:   ");
@@ -91,9 +91,9 @@
 ### 5-) Dados pessoais.
 
 ```c
-    #include <stdio.h>
+#include <stdio.h>
 	
-    int main ( ) {
+int main ( ) {
     char sexo[20];
     float altura = 0;
     int idade = 0;
@@ -116,9 +116,9 @@
 ### 1-) Número positivo, negativo ou zero.
 
 ```c
-    #include <stdio.h>
+#include <stdio.h>
 	
-    int main ( ) {
+int main ( ) {
     int num;
     
     printf("Digite o numero: ");
@@ -146,25 +146,25 @@
 #include <stdio.h>
 
 int main ( ) {
-int media = 0;
+    int media = 0;
 
-printf("Digite a média do aluno: ");
-scanf(%d", &media);
+    printf("Digite a média do aluno: ");
+    scanf(%d", &media);
 
- if (media >= 7)
- {   
-     printf("Aprovado");
- }
-  else if (media >= 5)
-  {
-  	 printf("Recuperação");
-  }
-  else
-  {
-  	 printf("Reprovado");
-  }
+    if (media >= 7)
+    {   
+        printf("Aprovado");
+    }
+    else if (media >= 5)
+    {
+      	 printf("Recuperação");
+    }
+    else
+    {
+      	 printf("Reprovado");
+    }
 
-return 0;
+    return 0;
 }
 ```
 ....
