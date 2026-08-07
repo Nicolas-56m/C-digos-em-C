@@ -8,7 +8,7 @@
  ```c
 #include <stdio.h>
 	
-int main ( ) {
+int main() {
     char nome[50];
     int idade;
 	
@@ -29,7 +29,7 @@ int main ( ) {
 ```c
 #include <stdio.h>
 	
-int main ( ) {
+int main() {
     int n1, n2, soma, multiplicacao, subtracao;
 
     printf("Digite o primeiro numero: ");
@@ -54,7 +54,7 @@ int main ( ) {
 ```c
 #include <stdio.h>
 	
-int main ( ) {
+int main() {
    	char nome[50];
    	float n1, n2, media = 0;
 	
@@ -77,7 +77,7 @@ int main ( ) {
 ```c
 #include <stdio.h>
 	
-int main ( ) {
+int main() {
    	float celcius = 0, fahrenheit = 0;
 	
    	printf("Digite a temperatura em Celcius:   ");
@@ -95,7 +95,7 @@ int main ( ) {
 ```c
 #include <stdio.h>
 	
-int main ( ) {
+int main() {
     char sexo[20];
     float altura = 0;
     int idade = 0;
@@ -120,7 +120,7 @@ int main ( ) {
 ```c
 #include <stdio.h>
 	
-int main ( ) {
+int main() {
     int num;
     
     printf("Digite o numero: ");
@@ -147,7 +147,7 @@ int main ( ) {
 ```c
 #include <stdio.h>
 
-int main ( ) {
+int main() {
     int media = 0;
 
     printf("Digite a média do aluno: ");
