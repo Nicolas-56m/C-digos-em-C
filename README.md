@@ -29,22 +29,22 @@ int main ( ) {
 #include <stdio.h>
 	
 int main ( ) {
-	   int n1, n2, soma = 0, multiplicacao = 0,  sutracao = 0;
+     int n1, n2, soma = 0, multiplicacao = 0,  sutracao = 0;
 
-   	printf("Digite o primeiro numero: ");
-   	scanf("%d", &n1);
-   	 printf("Digite o segundo numero: ");
-	    scanf("%d", &n2);
+     printf("Digite o primeiro numero: ");
+     scanf("%d", &n1);
+      printf("Digite o segundo numero: ");
+      scanf("%d", &n2);
 	 
-  	 soma = n1 + n2;
-  	 subtracao = n1 - n2;
-  	 multiplicacao = n1 * n2;
-	 
-    printf("A soma dos 2 numeros: %d\n", soma);
-	   printf("A subtracao dos 2 numeros %d\n", subtracao);
-    printf("A multiplicacao dos 2 numeros: %d\n", multiplicacao);
+     soma = n1 + n2;
+     subtracao = n1 - n2;
+     multiplicacao = n1 * n2;
+   	 
+     printf("A soma dos 2 numeros: %d\n", soma);
+     printf("A subtracao dos 2 numeros %d\n", subtracao);
+     printf("A multiplicacao dos 2 numeros: %d\n", multiplicacao);
 	   
-	   return 0;
+     return 0;
 }
 ```
 ### 3-) Média de 2 notas.
