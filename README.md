@@ -56,20 +56,20 @@ int main() {
 	
 int main() {
     char nome[50];
-   	float n1, n2, media = 0;
+    float n1, n2, media = 0;
 	
-   	printf("Digite o nome do aluno: ");
-   	scanf("%49s", nome);
-   	 printf("Digite a primeira nota: ");
-   	 scanf("%d", &n1);
-   	  printf("Digite a segunda nota: ");
-	     scanf("%d", &n2);
+    printf("Digite o nome do aluno: ");
+    scanf("%49s", nome);
+     printf("Digite a primeira nota: ");
+     scanf("%d", &n1);
+      printf("Digite a segunda nota: ");
+      scanf("%d", &n2);
 	   
-	   media = (n1 + n2) / 2.0;
+    media = (n1 + n2) / 2.0;
 	
-   	printf("O nome do aluno eh %s, e sua nota eh %.2f", nome, media);
+    printf("O nome do aluno eh %s, e sua nota eh %.2f", nome, media);
 	
-   	return 0;
+    return 0;
 }
 ```
 ### 4-) Conversão de temperatura de °C para °F.
