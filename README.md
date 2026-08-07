@@ -130,18 +130,18 @@ int main() {
     printf("Digite o numero: ");
     scanf("%d", &num);
     
-     if (num > 1) 
-     {
-         printf("Positivo");
-     }
-     else if (num < -1)
-     {
-         printf("Negativo"); 	
-     }
-     else 
-     {
-         printf("Eh zero (0)");
-     }
+    if (num > 0) 
+    {
+        printf("Positivo");
+    }
+    else if (num < 0)
+    {
+        printf("Negativo"); 	
+    }
+    else 
+    {
+        printf("Eh zero (0)");
+    }
 	 	  
     return 0;
 }
