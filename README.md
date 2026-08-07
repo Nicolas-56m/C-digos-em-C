@@ -105,7 +105,7 @@ int main() {
     printf("Digite seu sexo (Feminino ou Masculino): ");
     scanf("%19s", sexo);
     
-    printf("Digite sua altura (sem virgula, ex: 1.70): ");
+    printf("Digite sua altura (com ponto, ex: 1.70): ");
     scanf("%f", &altura);
     
     printf("Digite sua idade: ");
