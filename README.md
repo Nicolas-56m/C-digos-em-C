@@ -102,7 +102,7 @@ int main() {
     float altura;
     int idade;
     
-    printf("Digite seu sexo (Feminino ou Masculino): ");
+    printf("Digite seu sexo (Masculino ou Feminino): ");
     scanf("%19s", sexo);
     
     printf("Digite sua altura (com ponto, ex: 1.70): ");
