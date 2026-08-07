@@ -9,8 +9,8 @@
 #include <stdio.h>
 	
 int main ( ) {
-    char nome[50];
-   	int idade;
+     char nome[50];
+    	int idade;
 	
    	printf("Digite seu nome: ");
    	scanf("%49s", nome);
