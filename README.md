@@ -1,4 +1,4 @@
-# Códigos em C - Feitos por mim (para estudo)
+# Códigos-em-C - Feitos por mim (para estudo)
 
  ## - Printf e Scanf (Somente)
 <img src="https://img.shields.io/badge/FEITO NO-%2BEMBARCADEIRO-red">
@@ -111,7 +111,7 @@ int main() {
     printf("Digite sua idade: ");
     scanf("%d", &idade);
       
-    printf("Seu sexo eh %s, sua altura eh %.2f, e sua idade eh %d", sexo, altura, idade);
+    printf("\nSeu sexo eh %s, sua altura eh %.2f, e sua idade eh %d", sexo, altura, idade);
 		   
     return 0;
 }
