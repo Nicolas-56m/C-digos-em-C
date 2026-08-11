@@ -173,6 +173,13 @@ int main() {
     return 0;
 }
 ```
+### 3-) Maior entre 3 números.
+
+```c
+#include <stdio.h>
+
+int main() {
+
 ....
 
 do While 10 exercícios.. depois editar
