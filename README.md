@@ -117,6 +117,8 @@ int main() {
 }
 ```
 ## - If, Else If, Else
+<img src="https://img.shields.io/badge/FEITO NO-%2BEMBARCADEIRO-brightgreen">
+
  <img src="https://img.shields.io/badge/FEITO NO-EMBARCADEIRO-brightgreen">
 
 ### 1-) Número positivo, negativo ou zero.
