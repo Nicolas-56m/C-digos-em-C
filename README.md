@@ -174,6 +174,38 @@ int main() {
 }
 ```
 ### 3-) Maior entre 3 números.
+```c
+#include <stdio.h>
+
+int main() {
+    int n1,n2;
+    
+    printf("Digite o primeiro numero: ");
+    scanf("%d", &n1);
+
+    printf("Digite o segundo numero: ");
+    scanf("%d", &n2);
+
+    printf("Digite o terceiro numero: ");
+    scanf("%d", &n3);
+
+     if (n1 > n2 && n1 > n3) {
+         printf("O primeiro numero eh o maior");
+     }
+     else if (n2 > n1 && n2 > n3) {
+         printf("O segundo numero eh o maior");
+     }
+     else if (n3 > n1 && n3 > n2) {
+         printf("O terceiro numero eh o maior");
+     }
+     else {
+         printf("Existem numeros iguais");
+     }
+
+    return 0;
+}
+```
+
 <img src="https://img.shields.io/badge/FEITO NO-%2BEMBARCADEIRO-blue">
 
 ```c
