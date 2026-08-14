@@ -1,7 +1,7 @@
 # Códigos-em-C - Feitos por mim (para estudo)
 
  ## - Printf e Scanf (Somente)
-<img src="https://img.shields.io/badge/FEITO NO-%2BEMBARCADEIRO-C%2%2-red">
+<img src="https://img.shields.io/badge/FEITO NO-%2BEMBARCADEIRO-red">
 
  ### 1-) Nome e idade.
  
@@ -119,8 +119,6 @@ int main() {
 ## - If, Else If, Else
 <img src="https://img.shields.io/badge/FEITO NO-%2BEMBARCADEIRO-brightgreen">
 
- <img src="https://img.shields.io/badge/FEITO NO-EMBARCADEIRO-brightgreen">
-
 ### 1-) Número positivo, negativo ou zero.
 
 ```c
@@ -176,6 +174,7 @@ int main() {
 }
 ```
 ### 3-) Maior entre 3 números.
+<img src="https://img.shields.io/badge/FEITO NO-%2BEMBARCADEIRO-blue">
 
 <img src="https://img.shields.io/badge/FEITO-NO-EMBARCADEIRO-blue">
 
