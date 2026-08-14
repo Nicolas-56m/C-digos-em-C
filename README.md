@@ -191,19 +191,19 @@ int main() {
 
     if (n1 > n2 && n1 > n3) 
     {
-        printf("O primeiro numero eh o maior");
+        printf("\nO primeiro numero eh o maior");
     }
     else if (n2 > n1 && n2 > n3)
     {
-        printf("O segundo numero eh o maior");
+        printf("\nO segundo numero eh o maior");
     }
     else if (n3 > n1 && n3 > n2)
     {
-        printf("O terceiro numero eh o maior");
+        printf("\nO terceiro numero eh o maior");
     }
     else
     {
-        printf("Existem numeros iguais");
+        printf("\nExistem numeros iguais");
     }
 
    return 0;
