@@ -206,7 +206,7 @@ int main() {
         printf("\nExistem numeros iguais");
     }
 
-   return 0;
+    return 0;
 }
 ```
 
