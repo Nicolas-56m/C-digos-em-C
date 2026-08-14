@@ -178,7 +178,7 @@ int main() {
 #include <stdio.h>
 
 int main() {
-    int n1,n2;
+    int n1, n2, n3;
     
     printf("Digite o primeiro numero: ");
     scanf("%d", &n1);
@@ -189,20 +189,24 @@ int main() {
     printf("Digite o terceiro numero: ");
     scanf("%d", &n3);
 
-     if (n1 > n2 && n1 > n3) {
-         printf("O primeiro numero eh o maior");
-     }
-     else if (n2 > n1 && n2 > n3) {
-         printf("O segundo numero eh o maior");
-     }
-     else if (n3 > n1 && n3 > n2) {
-         printf("O terceiro numero eh o maior");
-     }
-     else {
-         printf("Existem numeros iguais");
-     }
+    if (n1 > n2 && n1 > n3) 
+    {
+        printf("O primeiro numero eh o maior");
+    }
+    else if (n2 > n1 && n2 > n3)
+    {
+        printf("O segundo numero eh o maior");
+    }
+    else if (n3 > n1 && n3 > n2)
+    {
+        printf("O terceiro numero eh o maior");
+    }
+    else
+    {
+        printf("Existem numeros iguais");
+    }
 
-    return 0;
+   return 0;
 }
 ```
 
