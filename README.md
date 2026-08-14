@@ -175,6 +175,8 @@ int main() {
 ```
 ### 3-) Maior entre 3 números.
 
+<img src="https://img.shields.io/badge/FEITO-NO-EMBARCADEIRO-blue">
+
 ```c
 #include <stdio.h>
 
