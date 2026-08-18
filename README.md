@@ -1,6 +1,6 @@
 # Códigos-em-C - Feitos por mim (para estudo)
 
- ## - Printf e Scanf (Somente)
+ ## FASE 1 - Printf e Scanf (Somente)
 <img src="https://img.shields.io/badge/FEITO NO-%2BEMBARCADEIRO-red">
 
  ### 1-) Nome e idade.
@@ -49,6 +49,7 @@ int main() {
     return 0;
 }
 ```
+
 ### 3-) Média de 2 notas.
 
 ```c
@@ -74,6 +75,7 @@ int main() {
     return 0;
 }
 ```
+
 ### 4-) Conversão de temperatura de °C para °F.
 
 ```c
@@ -92,6 +94,7 @@ int main() {
     return 0;
 }
 ```
+
 ### 5-) Dados pessoais.
 
 ```c
@@ -116,7 +119,8 @@ int main() {
     return 0;
 }
 ```
-## - If, Else If, Else
+
+## FASE 2 - If, Else If, Else
 <img src="https://img.shields.io/badge/FEITO NO-%2BEMBARCADEIRO-brightgreen">
 
 ### 1-) Número positivo, negativo ou zero.
@@ -146,6 +150,7 @@ int main() {
     return 0;
 }
 ```
+
 ### 2-) Aprovação escolar.
 
 ```c
@@ -173,7 +178,9 @@ int main() {
     return 0;
 }
 ```
+
 ### 3-) Maior entre 3 números.
+
 ```c
 #include <stdio.h>
 
@@ -210,7 +217,85 @@ int main() {
 }
 ```
 
+### 4-) Par ou ímpar.
+
+```c
+#include <stdio.h>
+
+int main () {
+    int num;
+
+    printf("Digite um numero: ");
+    scanf("%d", &num);
+
+    if (num % 2 == 0)
+    {
+	    printf("Par");
+    }
+    else
+    {
+        printf("Imapar"):
+
+    }
+
+    return 0;
+}
+```
+
+### 5-) Faixa etária.
+
+```c
+#include <stdio.h>
+
+int main () {
+    int idade;
+
+    printf("Digite a sua idade: ");
+    scanf("%d", &idade);
+
+    if (idade < 0)
+    {
+        printf("Idade Invalida");
+    }
+	else if (idade <= 12)
+    {
+        printf("Crianca");
+    }
+    else if (idade <= 17)
+    {
+        printf("Adolecente");
+    }
+    else if (idade <= 59)
+    {
+        printf("Adulto);
+    }
+    else
+    {
+        printf("Idoso");
+    }
+
+    return 0;
+}
+```
+
+## FASE 3 - Switch Case
 <img src="https://img.shields.io/badge/FEITO NO-%2BEMBARCADEIRO-blue">
+
+### 1-) Dias da semana.
+
+```c
+#include <stdio.h>
+
+int main() {
+    int dia;
+
+    printf("Digite um numero de 1 a 7 (cada numero representa um dia da semana): ");
+    scanf("%d", &dia);
+
+    switch(dia)
+```
+
+
 
 ```c
 #include <stdio.h>
